@@ -114,3 +114,16 @@ h1{font-size:clamp(42px,5.3vw,74px);line-height:1.06;letter-spacing:-.045em;marg
 .button-whatsapp{background:#25d366;border-color:#25d366;color:#fff;box-shadow:0 12px 34px #128c4055;gap:12px}
 .button-whatsapp:hover{background:#20bd5a;border-color:#20bd5a}
 .whatsapp-icon{width:26px;height:26px;flex:none}
+
+/* Agenda: texto y calendario centrados en todos los anchos. */
+.hero{text-align:center;margin-inline:auto}
+.hero h1,.hero .lead{margin-left:auto;margin-right:auto}
+.hero h1{max-width:980px}
+.hero .lead{max-width:760px}
+.hero-note{max-width:550px;margin:18px auto 0;color:#a9c9ec;font-size:14px;line-height:1.5}
+.section-heading{text-align:center;margin-left:auto;margin-right:auto}
+.booking-embed{width:min(100%,520px);margin-inline:auto;min-height:650px;padding:12px;border:0;background:transparent;box-shadow:none}
+#agenda-widget{min-height:620px}
+.booking-embed .iclosed-widget{margin-inline:auto}
+.cases-section{padding-top:20px}
+@media(max-width:520px){.hero{padding:58px 0 68px}.hero h1{font-size:clamp(40px,10vw,54px)}.hero .lead{font-size:18px}.booking-embed{padding:0;min-height:630px}.hero-note{font-size:13px}}
