@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Agendá tu Auditoría 1-1 | Paul Aragorn</title>
   <meta name="description" content="Agendá una auditoría de 60 minutos sobre tu vida social y amorosa con Paul Aragorn o su equipo.">
-  <link rel="stylesheet" href="./styles.css?v=20261029-3">
+  <link rel="stylesheet" href="./styles.css?v=20261029-5">
 </head>
 <body>
   <div class="page grid">
@@ -52,6 +52,14 @@
         </div>
       </section>
 
+      <dialog class="case-modal" id="case-modal" aria-labelledby="case-modal-title">
+        <div class="case-modal-header">
+          <h2 id="case-modal-title"></h2>
+          <button class="case-modal-close" type="button" aria-label="Cerrar testimonio">×</button>
+        </div>
+        <div class="case-modal-media" id="case-modal-media"></div>
+      </dialog>
+
       <section class="section shell closing-section">
         <div class="closing">
           <h2>Tu próximo paso empieza con una conversación.</h2>
@@ -62,5 +70,6 @@
     <footer class="footer shell">PAUL ARAGORN · THE YIN YANG GAME</footer>
   </div>
   <script src="./agenda.js?v=20261029-4" defer></script>
+  <script src="./testimonios.js?v=20261029-1" defer></script>
 </body>
 </html>

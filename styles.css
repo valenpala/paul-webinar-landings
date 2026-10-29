@@ -127,3 +127,15 @@ h1{font-size:clamp(42px,5.3vw,74px);line-height:1.06;letter-spacing:-.045em;marg
 .booking-embed .iclosed-widget{margin-inline:auto}
 .cases-section{padding-top:20px}
 @media(max-width:520px){.hero{padding:58px 0 68px}.hero h1{font-size:clamp(40px,10vw,54px)}.hero .lead{font-size:18px}.booking-embed{padding:0;min-height:630px}.hero-note{font-size:13px}}
+
+body.case-modal-open{overflow:hidden}
+.case-modal{width:min(980px,calc(100% - 32px));max-width:none;max-height:calc(100dvh - 32px);padding:0;border:1px solid #6bb3ff;border-radius:18px;background:#06172e;color:#fff;box-shadow:0 30px 100px #000c;overflow:auto}
+.case-modal::backdrop{background:#020916e8;backdrop-filter:blur(8px)}
+.case-modal-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;border-bottom:1px solid #5aa9ff55}
+.case-modal-header h2{font-size:clamp(18px,2vw,25px);line-height:1.25;margin:0}
+.case-modal-close{flex:none;display:grid;place-items:center;width:42px;height:42px;border:1px solid #8bc7ff88;border-radius:50%;background:#103b71;color:#fff;font:400 32px/1 Arial,sans-serif;cursor:pointer}
+.case-modal-close:hover,.case-modal-close:focus-visible{background:#216fc3}
+.case-modal-media{display:grid;place-items:center;min-height:280px;background:#000}
+.case-modal-media video,.case-modal-media iframe{display:block;width:100%;max-height:calc(100dvh - 120px);aspect-ratio:16/9;border:0;background:#000}
+.case-modal-media video{object-fit:contain}
+@media(max-width:520px){.case-modal{width:calc(100% - 16px)}.case-modal-header{padding:12px 14px}.case-modal-media{min-height:200px}}
