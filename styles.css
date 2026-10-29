@@ -139,3 +139,21 @@ body.case-modal-open{overflow:hidden}
 .case-modal-media video,.case-modal-media iframe{display:block;width:100%;max-height:calc(100dvh - 120px);aspect-ratio:16/9;border:0;background:#000}
 .case-modal-media video{object-fit:contain}
 @media(max-width:520px){.case-modal{width:calc(100% - 16px)}.case-modal-header{padding:12px 14px}.case-modal-media{min-height:200px}}
+
+/* El calendario sigue inmediatamente al texto principal. */
+.hero{padding-bottom:0}
+.hero .lead{margin-bottom:0}
+#agenda{padding-top:18px;padding-bottom:70px}
+.cases-section{padding-top:12px}
+.cases-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.case-card{height:100%;display:flex;flex-direction:column}
+.case-image{aspect-ratio:16/9;flex:none}
+.case-info{display:flex;flex:1;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:18px}
+.case-name{font:700 13px/1.3 'Poppins',sans-serif;color:var(--ice)}
+.case-info .case-metric{align-self:flex-start;color:#fff;background:#174e92;border:1px solid #5aa9ff6b;border-radius:7px;padding:5px 9px;font:800 13px/1.25 'Poppins',sans-serif;white-space:normal}
+.case-info .case-headline{font:800 19px/1.25 'Poppins',sans-serif;color:#fff}
+.case-info .case-summary{font:400 14px/1.45 'DM Sans',sans-serif;color:#d0e1f6;white-space:normal}
+.case-footer{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:10px;font:700 12px/1.3 'DM Sans',sans-serif;color:#b8d9ff;white-space:normal}
+.case-info .case-tag{padding:4px 8px;border:1px solid #5aa9ff66;border-radius:20px;white-space:normal;color:#d2e9ff}
+@media(max-width:900px){.cases-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.hero{padding-bottom:0}.cases-grid{grid-template-columns:1fr}.case-info{padding:16px}.case-info .case-headline{font-size:18px}#agenda{padding-top:14px;padding-bottom:56px}}
