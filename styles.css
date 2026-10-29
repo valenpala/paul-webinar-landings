@@ -37,6 +37,12 @@ h1{font-size:clamp(42px,5.3vw,74px);line-height:1.06;letter-spacing:-.045em;marg
 .section-heading p{color:var(--muted);font-size:17px;line-height:1.55}
 .card{border:1px solid #548bc16b;background:linear-gradient(135deg,#0c2f63,#061830);border-radius:20px;box-shadow:0 22px 60px #0005}
 .booking{padding:28px;min-height:440px}
+.booking-direct{min-height:240px;display:flex;align-items:center;justify-content:space-between;gap:36px;padding:38px 44px}
+.booking-direct>div{max-width:660px}
+.booking-direct h2{font-size:clamp(25px,2.7vw,35px);line-height:1.15}
+.booking-direct p{font-size:17px;line-height:1.55;margin:0}
+.booking-direct .eyebrow{font-size:12px;margin-bottom:13px;color:var(--ice)}
+.booking-direct .button{flex:none}
 .booking h2{font-size:24px;margin-bottom:8px}
 .booking p{color:var(--muted)}
 .booking .calendar-fallback{margin:18px 0 0;font-size:14px}
@@ -65,5 +71,5 @@ h1{font-size:clamp(42px,5.3vw,74px);line-height:1.06;letter-spacing:-.045em;marg
 .question{max-width:780px;margin:68px auto 0;padding:28px;text-align:center}
 .question h2{font-size:26px;margin-bottom:10px}
 .question p{color:var(--muted);margin-bottom:0;line-height:1.5}
-@media(max-width:820px){.hero-grid{grid-template-columns:1fr;gap:38px}.hero{padding:50px 0 60px}.photo-wrap{min-height:0;max-width:520px;margin:auto}.photo-wrap img{height:430px}.testimonials{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.top-note{display:none}}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr;gap:38px}.hero{padding:50px 0 60px}.photo-wrap{min-height:0;max-width:520px;margin:auto}.photo-wrap img{height:430px}.booking-direct{display:block}.booking-direct .button{margin-top:22px}.testimonials{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.top-note{display:none}}
 @media(max-width:520px){.shell{width:min(100% - 28px,1180px)}.top{height:68px}.brand{font-size:15px}.hero{padding:38px 0 55px}.lead{font-size:17px}.photo-wrap img{height:355px}.photo-caption{left:20px;right:20px}.section{padding:56px 0}.booking{padding:20px;min-height:0}.testimony{grid-template-columns:115px 1fr;gap:14px;padding:12px}.testimony img{width:115px;height:155px}.testimony h3{font-size:19px}.testimony p{font-size:13px}.closing{padding:30px 18px}.thanks-hero{padding:64px 0 54px}.step{padding:23px}}
