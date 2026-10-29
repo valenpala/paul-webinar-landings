@@ -22,15 +22,12 @@
         <div class="section-heading">
           <p class="eyebrow">Tu auditoría</p>
           <h2 id="agenda-titulo">Elegí tu horario</h2>
-          <p>Los horarios disponibles se muestran al abrir la agenda. Si encontrás uno que te sirve, reservalo: puede dejar de estar libre mientras esperás.</p>
+          <p>Elegí un horario y completá tus datos acá mismo para reservar tu llamada.</p>
         </div>
-        <div class="card booking booking-direct">
-          <div>
-            <p class="eyebrow">Reservá tu llamada</p>
-            <h2>Encontrá el horario que mejor te quede</h2>
-            <p>Completá tus datos para recibir los detalles de la llamada.</p>
-          </div>
-          <a class="button button-large" href="https://app.iclosed.io/e/yinyang/webinar-paul-09-11-2026-llamada-1-1">AGENDAR AHORA <span aria-hidden="true">→</span></a>
+        <div class="card booking booking-embed">
+          <div id="agenda-widget" aria-label="Agenda para reservar tu auditoría"></div>
+          <p id="agenda-estado" class="agenda-estado" role="status">Cargando horarios disponibles…</p>
+          <button id="agenda-reintentar" class="button agenda-reintentar" type="button" hidden>REINTENTAR</button>
         </div>
       </section>
 
@@ -63,5 +60,6 @@
     </main>
     <footer class="footer shell">PAUL ARAGORN · THE YIN YANG GAME</footer>
   </div>
+  <script src="./agenda.js" defer></script>
 </body>
 </html>

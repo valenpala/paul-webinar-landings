@@ -103,3 +103,9 @@ h1{font-size:clamp(42px,5.3vw,74px);line-height:1.06;letter-spacing:-.045em;marg
 @media(max-width:1000px){.cases-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){.cases-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.case-info{display:block}.case-info strong{display:block;margin-bottom:5px}}
 @media(max-width:520px){.hero{padding:62px 0}.button-giant,.button-large{width:100%;padding:16px 20px}.confirmation{padding:70px 0 90px}.confirmation h1{font-size:clamp(36px,10vw,50px)}.cases-grid{gap:11px}.case-info{padding:11px}.case-info strong{font-size:13px}.case-info>span{font-size:11px}.case-play{width:42px;height:42px}}
+.booking-embed{min-height:680px;padding:20px}
+#agenda-widget{width:100%;min-height:620px}
+.agenda-estado{margin:8px 0 0;text-align:center;font-size:14px}
+.agenda-reintentar{display:block;margin:18px auto 0}
+.agenda-reintentar[hidden]{display:none}
+@media(max-width:520px){.booking-embed{padding:10px;min-height:660px}}
