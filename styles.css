@@ -109,3 +109,8 @@ h1{font-size:clamp(42px,5.3vw,74px);line-height:1.06;letter-spacing:-.045em;marg
 .agenda-reintentar{display:block;margin:18px auto 0}
 .agenda-reintentar[hidden]{display:none}
 @media(max-width:520px){.booking-embed{padding:10px;min-height:660px}}
+.confirmation-title-line{display:block}
+.confirmation-title-line+.confirmation-title-line{margin-top:.22em}
+.button-whatsapp{background:#25d366;border-color:#25d366;color:#fff;box-shadow:0 12px 34px #128c4055;gap:12px}
+.button-whatsapp:hover{background:#20bd5a;border-color:#20bd5a}
+.whatsapp-icon{width:26px;height:26px;flex:none}
